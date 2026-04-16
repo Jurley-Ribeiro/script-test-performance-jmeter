@@ -1,0 +1,18 @@
+# JMeter outputs
+results/*.jtl
+results/*.log
+
+# HTML Reports (generated, not committed)
+reports/load_test/
+reports/spike_test/
+
+# JMeter binary (downloaded locally)
+~/apache-jmeter-*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep folder structure
+!results/.gitkeep
+!reports/.gitkeep
