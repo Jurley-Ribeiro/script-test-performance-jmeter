@@ -237,7 +237,7 @@
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report - Baseline" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
-            <n>saveConfig</n>
+            <name>saveConfig</name>
             <value class="SampleSaveConfiguration">
               <time>true</time>
               <latency>true</latency>
@@ -317,7 +317,7 @@
         <ConstantThroughputTimer guiclass="TestBeanGUI" testclass="ConstantThroughputTimer" testname="Throughput: 500 req/s (Spike)" enabled="true">
           <intProp name="calcMode">2</intProp>
           <doubleProp>
-            <n>throughput</n>
+            <name>throughput</name>
             <value>30000.0</value>
           </doubleProp>
         </ConstantThroughputTimer>
